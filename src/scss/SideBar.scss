@@ -1,5 +1,5 @@
 .sidebar {
-  position: absolute;
+  position: fixed;
   width: 300px;
   height: 100%;
   background-color: #eee;
@@ -16,7 +16,7 @@
   .side_bar_content {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: calc(100% - 300px);
     background-color: rgb(41, 41, 43);
     color: white;
     padding-top: 40px;

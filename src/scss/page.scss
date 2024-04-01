@@ -2,7 +2,11 @@
   display: flex;
   height: 100%;
 
-  & > div {
-    height: 100%;
+  .contents_div {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 300px);
+    min-height: 100vh;
+    background-color: grey;
   }
 }
