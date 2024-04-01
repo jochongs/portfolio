@@ -8,8 +8,12 @@ function MainPage() {
       <SideBar></SideBar>
       <div className="contents_div">
         <header>
-          <div className="kor_name_div">민경찬 _</div>
-          <div className="eng_name_div">Jochong _</div>
+          <div className="kor_name_div">
+            <span>민경찬 _</span>
+          </div>
+          <div className="eng_name_div">
+            <span>JoChong _</span>
+          </div>
           <div className="job_name_div">
             <span>Backend Developer</span>
           </div>
