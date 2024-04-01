@@ -14,7 +14,43 @@
   }
 
   .side_bar_content {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     background-color: rgb(41, 41, 43);
+    color: white;
+    padding-top: 40px;
+
+    & > div {
+      width: 100%;
+    }
+
+    .title_div {
+      font-size: 28px;
+      padding-left: 30px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .sub_title_div {
+      font-size: 20px;
+      padding-left: 30px;
+    }
+
+    .sub_contents_div {
+      margin-bottom: 20px;
+    }
+
+    .contents {
+      padding-left: 30px;
+      color: #eee;
+      font-weight: lighter;
+      font-size: 16px;
+
+      a {
+        color: #eee;
+        text-decoration: none;
+      }
+    }
   }
 }
