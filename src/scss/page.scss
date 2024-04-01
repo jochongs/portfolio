@@ -15,6 +15,7 @@
       width: calc(100% - 100px);
       margin: 0 auto;
       margin-top: 40px;
+      user-select: none;
 
       .kor_name_div {
         font-size: 30px;
@@ -37,6 +38,36 @@
         width: 200px;
         background-color: #eee;
         box-shadow: 4px 4px 4px rgba($color: #000000, $alpha: 0.1);
+      }
+    }
+
+    section {
+      width: calc(100% - 100px);
+      margin: 0 auto;
+      margin-top: 40px;
+
+      .section_title {
+        font-size: 36px;
+        font-weight: bolder;
+        width: 300px;
+      }
+
+      .section_contents {
+        margin-top: 10px;
+
+        .contents_sub_title {
+          font-size: 20px;
+          width: 300px;
+          font-weight: bolder;
+        }
+
+        .contents_sub_contents {
+          font-weight: 300;
+        }
+      }
+
+      div {
+        width: 100%;
       }
     }
   }
