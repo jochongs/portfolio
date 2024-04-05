@@ -20,6 +20,12 @@ function SideBar() {
             </a>
           </div>
         </div>
+        <div className="sub_contents_div">
+          <div className="sub_title_div">Blog</div>
+          <div className="contents">
+            <a href="https://velog.io/@joch2712">https://velog.io/@joch2712</a>
+          </div>
+        </div>
       </div>
     </div>
   );
